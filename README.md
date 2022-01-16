@@ -1,6 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+
+Bare NextJS + Tailwind CSS configured and ready to play!
+
+I added a src folder because I like having one.
 
 First, run the development server:
 
