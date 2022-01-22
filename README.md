@@ -1,5 +1,5 @@
 
-## Getting Started
+## Daisy UI Testing Playground
 
 DaisyUI testing, experimenting with new and from scratch components.
 
