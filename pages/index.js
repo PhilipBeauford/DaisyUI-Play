@@ -6,14 +6,31 @@ import FeatureGridFlipped from "../components/FeatureGridFlipped";
 import LogoBanner from "../components/LogoBanner";
 import DropDown1 from "../components/DropDown1";
 import DropDownUser from "../components/DropDownUser";
+import NavBase from "../components/NavBase";
+import NavEcom from "../components/NavEcom";
+import NavSearch from "../components/NavSearch";
+import NavAvatar from "../components/NavAvatar";
+import NavCategories from './../components/NavCategories'
+import NavSearchMid from './../components/NavSearchMid'
+import HeroEcom from "../components/HeroEcom";
+import HeroNews from './../components/HeroNews'
+import HeroPattern from './../components/HeroPattern'
+import HeroSlide from './../components/HeroSlide'
+import Footer from "../components/Footer";
 
 
 export default function Home() {
   return (
     <div className="container m-auto box-border h-full">
+      <HeroEcom />
+      <FeatureGrid />  
+      <LogoBanner />
+      <FeatureGrid />  
+      <FeatureVideo />
+      <FeatureGridFlipped />
+      <FeatureGridImage />
       
-      
-      
+
       <div className="flex flex-col justify-center items-center h-full w-full">
         
         
@@ -36,14 +53,7 @@ export default function Home() {
         <div>
           <button className='btn btn-primary mb-20 mt-3'>daisyUI Button</button>
         </div>
-          
-          <FeatureGrid />  
-          <LogoBanner />
-          <FeatureVideo />
-          <FeatureGridImage />
-          <FeatureGridFlipped />
-          <DropDown1 />
-          <DropDownUser />
+          <Footer />
       </div>
     </div>
   );
