@@ -13,16 +13,16 @@ import NavAvatar from "../components/NavAvatar";
 import NavCategories from './../components/NavCategories'
 import NavSearchMid from './../components/NavSearchMid'
 import HeroEcom from "../components/HeroEcom";
-import HeroNews from './../components/HeroNews'
-import HeroPattern from './../components/HeroPattern'
-import HeroSlide from './../components/HeroSlide'
 import Footer from "../components/Footer";
+import Header1 from './../components/Header1'
 
 
 export default function Home() {
   return (
     <div className="container m-auto box-border h-full">
+      
       <HeroEcom />
+      <Header1 />
       <FeatureGrid />  
       <LogoBanner />
       <FeatureGrid />  
