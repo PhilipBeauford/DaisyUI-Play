@@ -1,38 +1,37 @@
 import Head from "next/head";
-import FeatureVideo from "../components/FeatureVideo";
-import FeatureGrid from "../components/FeatureGrid";
-import FeatureGridImage from "../components/FeatureGridImage";
-import FeatureGridFlipped from "../components/FeatureGridFlipped";
-import LogoBanner from "../components/LogoBanner";
-import DropDown1 from "../components/DropDown1";
-import DropDownUser from "../components/DropDownUser";
-import NavBase from "../components/NavBase";
-import NavEcom from "../components/NavEcom";
-import NavSearch from "../components/NavSearch";
-import NavAvatar from "../components/NavAvatar";
-import NavCategories from './../components/NavCategories'
-import NavSearchMid from './../components/NavSearchMid'
-import HeroEcom from "../components/HeroEcom";
-import Footer from "../components/Footer";
-import Header1 from './../components/Header1'
+import CartTW from "../components/CartTW";
+import CtaTW from "../components/CtaTW";
+import FeatureTW from "../components/FeatureTW";
+import ProductOverviewTW from "../components/ProductOverviewTW";
+import Promo from "../components/Promo";
+import HeroTW from './../components/HeroTW'
+import ProductListTW from './../components/ProductListTW'
+import ProductFeaturesTW from './../components/ProductFeaturesTW'
+import ProductQuickView from './../components/ProductQuickView'
+import ThreeColumn from './../components/ThreeColumn'
+import FourColumn from "../components/FourColumn";
+import AvatarGroup from './../components/AvatarGroup'
 
 
 export default function Home() {
   return (
     <div className="container m-auto box-border h-full">
-      
-      <HeroEcom />
-      <Header1 />
-      <FeatureGrid />  
-      <LogoBanner />
-      <FeatureGrid />  
-      <FeatureVideo />
-      <FeatureGridFlipped />
-      <FeatureGridImage />
-      
+<HeroTW />
+    
+  <FeatureTW /> 
+    <Promo />
+    <ProductQuickView />
+    <ProductListTW />
+    <ThreeColumn />
+    <FourColumn />
+    <ProductOverviewTW />
+    <AvatarGroup />
+    <ProductFeaturesTW />
+    
+    <CartTW />
+  <CtaTW /> 
 
       <div className="flex flex-col justify-center items-center h-full w-full">
-        
         
         
         <div className="block">
@@ -53,7 +52,6 @@ export default function Home() {
         <div>
           <button className='btn btn-primary mb-20 mt-3'>daisyUI Button</button>
         </div>
-          <Footer />
       </div>
     </div>
   );
